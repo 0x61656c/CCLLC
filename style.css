@@ -1,0 +1,139 @@
+body
+{
+	margin:0;
+	padding:0;
+	height: 100vh;
+	background-color: #E1E3E9;
+}
+
+html {
+  margin: 0;
+  font-family: 'Verdana';
+  font-smoothing: subpixel-antialiased;
+  text-rendering: geometricPrecision;
+}
+
+#fname{
+    margin-right: 20px;
+}
+
+#lname{
+    margin-right: 20px;
+}
+
+#email{
+    margin-right: 20px;
+}
+
+#particles-js
+{
+	height: 10%;
+	background-color: white ;
+}
+
+#text
+{
+	color: white;
+    font-
+}
+
+.section
+{
+    font-weight: bold;
+    font-size: 24px ;
+}
+
+.subsection{
+    font-weight: bold;
+    font-size: 18px ;
+}
+
+
+input {
+    border: 1px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+h2 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+}
+h3 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+}
+h4 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+h5 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+h6 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+
+p {
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 0;
+    line-height: 28px;
+}
+
+#fade {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
