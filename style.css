@@ -17,6 +17,18 @@ img {
     filter : grayscale(90%);
 }
 
+#right-align{
+    
+}
+
+#foot-text{
+    font-size: 18px;
+}
+
+#link-list{
+    text-align: left;
+}
+
 #fname{
     margin-right: 20px;
 }
@@ -86,6 +98,23 @@ input {
     border-radius: 10px;
     padding: 2px;
     margin: 5px;
+}
+
+textarea{
+    border: 1px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 3px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 input:focus {
