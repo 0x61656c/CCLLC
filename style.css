@@ -13,8 +13,25 @@ html {
   text-rendering: geometricPrecision;
 }
 
-img {
+#Personal{
     filter : grayscale(90%);
+}
+
+#right-align{
+    
+}
+
+#foot-text{
+    font-size: 14px;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#link-list{
+    text-align: left;
 }
 
 #fname{
@@ -86,6 +103,23 @@ input {
     border-radius: 10px;
     padding: 2px;
     margin: 5px;
+}
+
+textarea{
+    border: 1px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 3px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 input:focus {
