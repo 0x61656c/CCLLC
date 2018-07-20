@@ -83,31 +83,30 @@
 
 
 <!--Accordion-->
-<div class = "row">
-<div class = "col-sm-4"></div>
-<div class= col-sm-4>
-<button class="accordion"><center>Blockchain Technology</center></button>
-<div class="panel"><br>
-  <p>Through the use of decentralized digital ledgers with append-only characteristics, blockchain technology is revolutionizing numerous industries focused on trasparency, decentralization, and autonomy. <br><br>Click below to learn more about our blockchain related services.</p><br><center><a class="btn btn-primary" href = "blockchain.html">Learn More</a></center><br>
-</div>
+<div class = "container">
+  <div class = "row">
 
-<button class="accordion"><center>Web Development</center></button>
-<div class="panel"><br>
-  <p>In the digital age, maintaining an active web presence for your business is incredibly important. Today's consumers get most of their information online--market research has shown that an effective website redesign can increase sales up to 40%.<br><br>Our web development offerings are extensive, unique to each client, and generally longer term undertakings. Click below to send us your information and we'll be in touch within 24 hours.</p><br>
-</div>
+    <div class = "col-sm-4">
+      <h3>Blockchain Technology</h3>
+      <p>Through the use of decentralized digital ledgers with append-only characteristics, blockchain technology is revolutionizing numerous industries focused on trasparency, decentralization, and autonomy. <br><br>Click below to learn more about our blockchain related services.</p><br><center><a class="btn btn-primary" href = "blockchain.html">Learn More</a><br></div>
 
-<button class="accordion"><center>Workflow Optimization</center></button>
-<div class="panel"><br>
-  <p>Internal workflows are important to maintaining a stable internal organization. Through technology integration, Cryptonet Consulting can increase your organization's productivity through automation. <br><br>Click below to learn more about our workflow optimization services.</p><br>
-</div>
+    </div>
+  </center>
 
-<button class="accordion"><center>Contractual Programming</center></button>
-<div class="panel"><br>
-  <p>Do you have an idea for your business that requires expertise in coding? Cryptonet Consulting can help you make your dreams a reality. If necessary, we're always willing to sign away intellectual property rights. Click below to contact us. In the text field, please include your name, a list of desired features (so we can get a general idea of what you're looking for), and the best way to contact you. We'll be in touch within 24 hours.</p><br>
-</div>
-</div>
-<div class = "col-sm-4"></div>
-</div>
+
+<div class = "col-sm-4">
+  <h3>Web Development</h3>
+  <p>In the digital age, maintaining an active web presence for your business is incredibly important. Today's consumers get most of their information online--market research has shown that an effective website redesign can increase sales up to 40%.<br><br>Our web development offerings are extensive, unique to each client, and generally longer term undertakings. Click below to send us your information and we'll be in touch within 24 hours.</p><br></div>
+
+</div></div></div>
+
+<center><h3>Contractual Programming</h3></center>
+<center><div class = "col-sm-4">
+<br>
+  <p>Do you have an idea for your business that requires expertise in coding? Cryptonet Consulting can help you make your dreams a reality. If necessary, we're always willing to sign away intellectual property rights. Click below to contact us. In the text field, please include your name, a list of desired features (so we can get a general idea of what you're looking for), and the best way to contact you. We'll be in touch within 24 hours.</p><br></div>
+
+</div></center>
+
 
 <br><br>
 <!--Section 2 -->
@@ -243,6 +242,12 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+</script>
+
+<script>
+  $(".accordion > div").hide().parent().hover(function(event) {
+  $(this).children("div").slideToggle(event.type === "mouseenter");
+});
 </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
